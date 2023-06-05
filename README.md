@@ -1,20 +1,20 @@
-# Neo-Bank Fintech Project 
+# Neo-Bank Fintech Project 🏦
 
 Welcome to the Neo-Bank Fintech Project! This project aims to analyze user engagement and retention in a neo bank environment. The objective is to define a target metric for measuring user engagement, identify engaged and unengaged users, calculate retention by cohorts over time, and provide valuable business recommendations based on the analysis.
 
 ## Table of Contents
 
-#### 1. Target Metric
-#### 2. Engaged vs. Unengaged Users
-#### 3. Business Justification
-#### 4. Retention Analysis
-#### 5. Business Recommendations
-#### 6. Context
-#### 7. Problem Statement
-#### 8. Descriptive Statistics
-#### 9. Analysis
-#### 10. Ad-hoc Analysis in Python
-#### 11. Tech Stack
+#### - 1. Target Metric
+#### - 2. Engaged vs. Unengaged Users
+#### - 3. Business Justification
+#### - 4. Retention Analysis
+#### - 5. Business Recommendations
+#### - 6. Context
+#### - 7. Problem Statement
+#### - 8. Descriptive Statistics
+#### - 9. Analysis
+#### - 10. Ad-hoc Analysis in Python
+#### - 11. Tech Stack
 
 ## Target Metric
 
