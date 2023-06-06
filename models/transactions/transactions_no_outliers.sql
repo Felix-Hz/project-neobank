@@ -12,4 +12,4 @@ ON t.transactions_currency = quartiles.transactions_currency
 WHERE
   (t.amount_usd >= quartiles.first_quartile - 1.5 * (quartiles.third_quartile - quartiles.first_quartile))
   AND (t.amount_usd <= quartiles.third_quartile + 1.5 * (quartiles.third_quartile - quartiles.first_quartile))
-ORDER BY transactions_currency;
+ORDER BY transactions_currency ASC
