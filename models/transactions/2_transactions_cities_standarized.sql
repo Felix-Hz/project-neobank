@@ -17,7 +17,7 @@ WITH cte AS (
       WHEN ea_merchant_city = 'z?rich' THEN 'zurich'
       ELSE ea_merchant_city
     END AS ea_merchant_city_modif
-  FROM transformed_data_dbt.transactions_no_outliers
+  FROM transformed_data_dbt.transactions_to_lowercase
 )
 SELECT
   *,
