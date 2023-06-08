@@ -14,7 +14,7 @@ select
     u_clean.birth_year,
     u_clean.country,
     u_clean.city,
-    u_clean.created_date,
+    format_timestamp('%Y-%m-%d', u_clean.created_date) as created_date,
     u_clean.user_settings_crypto_unlocked,
     u_clean.plan,
     u_clean.attributes_notifications_marketing_push,
@@ -23,8 +23,8 @@ select
     u_clean.num_referrals,
     u_clean.num_successful_referrals,
     u_clean.nb_transactions,
-    u_clean.latest_transaction,
-    u_clean.first_transaction,
+    format_timestamp('%Y-%m-%d', u_clean.latest_transaction) as latest_transaction,
+    format_timestamp('%Y-%m-%d', u_clean.first_transaction) as first_transaction,
     user_profiles.percentage_outbound,
     user_profiles.user_profile
 from neo_bank.users_clean1 as u_clean
