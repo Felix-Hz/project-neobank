@@ -4,7 +4,7 @@ with
             user_id,
             percentage_outbound,
             case
-                when percentage_outbound > 49 then "active" else "passive"
+                when percentage_outbound > 55 then "active" else "passive"
             end as user_profile
         from `neo-bank-388616.insights.percentage_inbound_outbound`
     )
